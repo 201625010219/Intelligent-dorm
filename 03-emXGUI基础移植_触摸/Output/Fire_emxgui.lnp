@@ -110,6 +110,7 @@
 "..\..\output\gui_startup.o"
 "..\..\output\gui_touch_port.o"
 "..\..\emXGUI_Lib\libs\emXGUI100_MDK_M7.lib"
+"..\..\emXGUI_Lib\libs\x_libc_MDK_M4.lib"
 "..\..\output\gui_desktop.o"
 --library_type=microlib --strict --scatter "..\..\Output\Fire_emxgui.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols

@@ -1069,6 +1069,11 @@
               <FileType>4</FileType>
               <FilePath>..\..\emXGUI_Lib\libs\emXGUI100_MDK_M7.lib</FilePath>
             </File>
+            <File>
+              <FileName>x_libc_MDK_M4.lib</FileName>
+              <FileType>4</FileType>
+              <FilePath>..\..\emXGUI_Lib\libs\x_libc_MDK_M4.lib</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
