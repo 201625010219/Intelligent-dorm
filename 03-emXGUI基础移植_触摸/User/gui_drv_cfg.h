@@ -135,8 +135,8 @@
 /*===========日志输出设备配置===gui_log_port.c===============================================*/
 
 /* 是否开启调试输出、数组输出、进入函数的输出功能 */
-#define GUI_DEBUG_EN         	      1
-#define GUI_DEBUG_ARRAY_EN          0
+#define GUI_DEBUG_EN         	       1
+#define GUI_DEBUG_ARRAY_EN             0
 #define GUI_DEBUG_FUNC_EN   	       0
 
 

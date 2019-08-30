@@ -14,7 +14,7 @@
 #include "x_libc.h" // x_libc里，提供了通用的内存堆管理函数(x_heap)...
 #include "board.h"
 #include "gui_drv.h"
-#include	"emXGUI_Arch.h"
+#include "emXGUI_Arch.h"
 #include "gui_mem_port.h"
 
 
