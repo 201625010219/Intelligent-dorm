@@ -1,0 +1,10 @@
+..\..\output\extflash\door.o: ..\..\STemWIN_Task\door.c
+..\..\output\extflash\door.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\extflash\door.o: ..\..\STemWIN\inc\GUI.h
+..\..\output\extflash\door.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\extflash\door.o: ..\..\STemWIN\inc\GUI_ConfDefaults.h
+..\..\output\extflash\door.o: ..\..\STemWIN\Config\GUIConf.h
+..\..\output\extflash\door.o: ..\..\STemWIN\inc\GUI_Type.h
+..\..\output\extflash\door.o: ..\..\STemWIN\inc\LCD.h
+..\..\output\extflash\door.o: ..\..\STemWIN\inc\Global.h
+..\..\output\extflash\door.o: ..\..\STemWIN\inc\GUI_Version.h

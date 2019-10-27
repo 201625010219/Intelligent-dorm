@@ -1,9 +1,9 @@
 ..\..\output\queue.o: ..\..\FreeRTOS\src\queue.c
-..\..\output\queue.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdlib.h
-..\..\output\queue.o: D:\keil\core\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\queue.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\queue.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\string.h
 ..\..\output\queue.o: ..\..\FreeRTOS\include\FreeRTOS.h
-..\..\output\queue.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stddef.h
-..\..\output\queue.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\queue.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\queue.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\queue.o: ..\..\User\FreeRTOSConfig.h
 ..\..\output\queue.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\queue.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h743xx.h
@@ -18,7 +18,7 @@
 ..\..\output\queue.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h
 ..\..\output\queue.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\queue.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-..\..\output\queue.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\queue.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\queue.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h
 ..\..\output\queue.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h
 ..\..\output\queue.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h

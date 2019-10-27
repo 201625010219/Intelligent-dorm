@@ -1,0 +1,10 @@
+..\..\output\inflash\camera.o: ..\..\STemWIN_Task\Camera.c
+..\..\output\inflash\camera.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\inflash\camera.o: ..\..\STemWIN\inc\GUI.h
+..\..\output\inflash\camera.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\inflash\camera.o: ..\..\STemWIN\inc\GUI_ConfDefaults.h
+..\..\output\inflash\camera.o: ..\..\STemWIN\Config\GUIConf.h
+..\..\output\inflash\camera.o: ..\..\STemWIN\inc\GUI_Type.h
+..\..\output\inflash\camera.o: ..\..\STemWIN\inc\LCD.h
+..\..\output\inflash\camera.o: ..\..\STemWIN\inc\Global.h
+..\..\output\inflash\camera.o: ..\..\STemWIN\inc\GUI_Version.h

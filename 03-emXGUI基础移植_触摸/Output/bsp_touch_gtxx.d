@@ -1,12 +1,12 @@
 ..\..\output\bsp_touch_gtxx.o: ..\..\User\bsp\touch\bsp_touch_gtxx.c
-..\..\output\bsp_touch_gtxx.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdio.h
-..\..\output\bsp_touch_gtxx.o: D:\keil\core\ARM\ARMCC\Bin\..\include\string.h
-..\..\output\bsp_touch_gtxx.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\bsp_touch_gtxx.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\bsp_touch_gtxx.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\bsp_touch_gtxx.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\..\output\bsp_touch_gtxx.o: ..\..\User\bsp\./touch/bsp_touch_gtxx.h
 ..\..\output\bsp_touch_gtxx.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\bsp_touch_gtxx.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h743xx.h
 ..\..\output\bsp_touch_gtxx.o: ..\..\Libraries\CMSIS\Include\core_cm7.h
-..\..\output\bsp_touch_gtxx.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\bsp_touch_gtxx.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\bsp_touch_gtxx.o: ..\..\Libraries\CMSIS\Include\cmsis_compiler.h
 ..\..\output\bsp_touch_gtxx.o: ..\..\Libraries\CMSIS\Include\cmsis_armcc.h
 ..\..\output\bsp_touch_gtxx.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\system_stm32h7xx.h

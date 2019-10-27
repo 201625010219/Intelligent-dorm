@@ -1,0 +1,10 @@
+..\..\output\inflash\clock.o: ..\..\STemWIN_Task\clock.c
+..\..\output\inflash\clock.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\inflash\clock.o: ..\..\STemWIN\inc\GUI.h
+..\..\output\inflash\clock.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\inflash\clock.o: ..\..\STemWIN\inc\GUI_ConfDefaults.h
+..\..\output\inflash\clock.o: ..\..\STemWIN\Config\GUIConf.h
+..\..\output\inflash\clock.o: ..\..\STemWIN\inc\GUI_Type.h
+..\..\output\inflash\clock.o: ..\..\STemWIN\inc\LCD.h
+..\..\output\inflash\clock.o: ..\..\STemWIN\inc\Global.h
+..\..\output\inflash\clock.o: ..\..\STemWIN\inc\GUI_Version.h

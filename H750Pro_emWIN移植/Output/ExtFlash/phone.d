@@ -1,0 +1,10 @@
+..\..\output\extflash\phone.o: ..\..\STemWIN_Task\phone.c
+..\..\output\extflash\phone.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\extflash\phone.o: ..\..\STemWIN\inc\GUI.h
+..\..\output\extflash\phone.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\extflash\phone.o: ..\..\STemWIN\inc\GUI_ConfDefaults.h
+..\..\output\extflash\phone.o: ..\..\STemWIN\Config\GUIConf.h
+..\..\output\extflash\phone.o: ..\..\STemWIN\inc\GUI_Type.h
+..\..\output\extflash\phone.o: ..\..\STemWIN\inc\LCD.h
+..\..\output\extflash\phone.o: ..\..\STemWIN\inc\Global.h
+..\..\output\extflash\phone.o: ..\..\STemWIN\inc\GUI_Version.h

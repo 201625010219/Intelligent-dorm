@@ -1,8 +1,8 @@
 ..\..\output\timers.o: ..\..\FreeRTOS\src\timers.c
-..\..\output\timers.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\timers.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\..\output\timers.o: ..\..\FreeRTOS\include\FreeRTOS.h
-..\..\output\timers.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stddef.h
-..\..\output\timers.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\timers.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\timers.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\timers.o: ..\..\User\FreeRTOSConfig.h
 ..\..\output\timers.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\timers.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h743xx.h
@@ -17,7 +17,7 @@
 ..\..\output\timers.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h
 ..\..\output\timers.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\timers.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-..\..\output\timers.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\timers.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\timers.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h
 ..\..\output\timers.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h
 ..\..\output\timers.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h

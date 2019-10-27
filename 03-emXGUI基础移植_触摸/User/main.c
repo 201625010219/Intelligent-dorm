@@ -90,7 +90,7 @@ static void BSP_Init(void)
   SCB_EnableDCache();
 
   /* 系统时钟初始化成400MHz */
-	SystemClock_Config();
+  SystemClock_Config();
   	
   /*
 	 * STM32中断优先级分组为4，即4bit都用来表示抢占优先级，范围为：0~15
@@ -102,7 +102,7 @@ static void BSP_Init(void)
 	/* 硬件BSP初始化统统放在这里，比如LED，串口，LCD等 */
   SDRAM_Init();
 	/* LED 端口初始化 */
-	LED_GPIO_Config();	
+  LED_GPIO_Config();	
 	
 	/* usart 端口初始化 */
   UARTx_Config();

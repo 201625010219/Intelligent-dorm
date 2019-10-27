@@ -1,9 +1,9 @@
 ..\..\output\tasks.o: ..\..\FreeRTOS\src\tasks.c
-..\..\output\tasks.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdlib.h
-..\..\output\tasks.o: D:\keil\core\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\tasks.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\tasks.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\string.h
 ..\..\output\tasks.o: ..\..\FreeRTOS\include\FreeRTOS.h
-..\..\output\tasks.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stddef.h
-..\..\output\tasks.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\tasks.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\tasks.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\tasks.o: ..\..\User\FreeRTOSConfig.h
 ..\..\output\tasks.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\tasks.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h743xx.h
@@ -18,7 +18,7 @@
 ..\..\output\tasks.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h
 ..\..\output\tasks.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\tasks.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-..\..\output\tasks.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\tasks.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\tasks.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h
 ..\..\output\tasks.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h
 ..\..\output\tasks.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h

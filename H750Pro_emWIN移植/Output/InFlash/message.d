@@ -1,0 +1,10 @@
+..\..\output\inflash\message.o: ..\..\STemWIN_Task\message.c
+..\..\output\inflash\message.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\inflash\message.o: ..\..\STemWIN\inc\GUI.h
+..\..\output\inflash\message.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\inflash\message.o: ..\..\STemWIN\inc\GUI_ConfDefaults.h
+..\..\output\inflash\message.o: ..\..\STemWIN\Config\GUIConf.h
+..\..\output\inflash\message.o: ..\..\STemWIN\inc\GUI_Type.h
+..\..\output\inflash\message.o: ..\..\STemWIN\inc\LCD.h
+..\..\output\inflash\message.o: ..\..\STemWIN\inc\Global.h
+..\..\output\inflash\message.o: ..\..\STemWIN\inc\GUI_Version.h

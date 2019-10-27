@@ -113,6 +113,6 @@
 "..\..\emXGUI_Lib\libs\x_libc_MDK_M4.lib"
 "..\..\output\gui_desktop.o"
 --library_type=microlib --strict --scatter "..\..\Output\Fire_emxgui.sct"
---summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "..\..\Listing\Fire_emxgui.map" -o ..\..\Output\Fire_emxgui.axf

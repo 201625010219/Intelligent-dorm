@@ -1,0 +1,9 @@
+..\..\output\extflash\guiconf.o: ..\..\STemWIN\Config\GUIConf.c
+..\..\output\extflash\guiconf.o: ..\..\STemWIN\inc\GUI.h
+..\..\output\extflash\guiconf.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\extflash\guiconf.o: ..\..\STemWIN\inc\GUI_ConfDefaults.h
+..\..\output\extflash\guiconf.o: ..\..\STemWIN\Config\GUIConf.h
+..\..\output\extflash\guiconf.o: ..\..\STemWIN\inc\GUI_Type.h
+..\..\output\extflash\guiconf.o: ..\..\STemWIN\inc\LCD.h
+..\..\output\extflash\guiconf.o: ..\..\STemWIN\inc\Global.h
+..\..\output\extflash\guiconf.o: ..\..\STemWIN\inc\GUI_Version.h

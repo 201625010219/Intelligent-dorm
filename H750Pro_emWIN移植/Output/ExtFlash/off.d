@@ -1,0 +1,10 @@
+..\..\output\extflash\off.o: ..\..\STemWIN_Task\OFF.c
+..\..\output\extflash\off.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\extflash\off.o: ..\..\STemWIN\inc\GUI.h
+..\..\output\extflash\off.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\extflash\off.o: ..\..\STemWIN\inc\GUI_ConfDefaults.h
+..\..\output\extflash\off.o: ..\..\STemWIN\Config\GUIConf.h
+..\..\output\extflash\off.o: ..\..\STemWIN\inc\GUI_Type.h
+..\..\output\extflash\off.o: ..\..\STemWIN\inc\LCD.h
+..\..\output\extflash\off.o: ..\..\STemWIN\inc\Global.h
+..\..\output\extflash\off.o: ..\..\STemWIN\inc\GUI_Version.h

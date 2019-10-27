@@ -1,12 +1,12 @@
 ..\..\output\x_gui_freertos.o: ..\..\emXGUI_Lib\arch\OS_Options\X_GUI_FreeRTOS.c
-..\..\output\x_gui_freertos.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\x_gui_freertos.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
 ..\..\output\x_gui_freertos.o: ..\..\emXGUI_Lib\inc\emXGUI_Arch.h
 ..\..\output\x_gui_freertos.o: ..\..\emXGUI_Lib\inc\emXGUI.h
 ..\..\output\x_gui_freertos.o: ..\..\emXGUI_Lib\inc\def.h
 ..\..\output\x_gui_freertos.o: ..\..\emXGUI_Lib\arch\Inc\gui_os_port.h
-..\..\output\x_gui_freertos.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\x_gui_freertos.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\x_gui_freertos.o: ..\..\FreeRTOS\include\FreeRTOS.h
-..\..\output\x_gui_freertos.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\x_gui_freertos.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\x_gui_freertos.o: ..\..\User\FreeRTOSConfig.h
 ..\..\output\x_gui_freertos.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\x_gui_freertos.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h743xx.h
@@ -63,7 +63,7 @@
 ..\..\output\x_gui_freertos.o: ..\..\emXGUI_Lib\inc\emXGUI_Arch.h
 ..\..\output\x_gui_freertos.o: ..\..\emXGUI_Lib\arch\Inc\gui_drv.h
 ..\..\output\x_gui_freertos.o: ..\..\emXGUI_Lib\inc\emXGUI.h
-..\..\output\x_gui_freertos.o: D:\keil\core\ARM\ARMCC\Bin\..\include\math.h
+..\..\output\x_gui_freertos.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\math.h
 ..\..\output\x_gui_freertos.o: ..\..\emXGUI_Lib\drv\gui_mem_port.h
 ..\..\output\x_gui_freertos.o: ..\..\emXGUI_Lib\drv\gui_drv_cfg.h
 ..\..\output\x_gui_freertos.o: ..\..\emXGUI_Lib\drv\gui_lcd_port.h

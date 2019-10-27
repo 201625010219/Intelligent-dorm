@@ -98,7 +98,7 @@
 /* 是否使用外部FLASH中的字体
 *  流设备和整体加载方式都要把这个宏设置为1
 */
-#define GUI_USE_EXTERN_FONT       0
+#define GUI_USE_EXTERN_FONT       1
 
 /*
 * 是否把整个外部字体数据加载至VMEM区域，初始化加载时需要较长时间，

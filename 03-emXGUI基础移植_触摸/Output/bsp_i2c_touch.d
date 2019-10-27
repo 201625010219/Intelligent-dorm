@@ -3,7 +3,7 @@
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h743xx.h
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\CMSIS\Include\core_cm7.h
-..\..\output\bsp_i2c_touch.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\bsp_i2c_touch.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\CMSIS\Include\cmsis_compiler.h
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\CMSIS\Include\cmsis_armcc.h
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\system_stm32h7xx.h
@@ -14,7 +14,7 @@
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-..\..\output\bsp_i2c_touch.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\bsp_i2c_touch.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h
 ..\..\output\bsp_i2c_touch.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h

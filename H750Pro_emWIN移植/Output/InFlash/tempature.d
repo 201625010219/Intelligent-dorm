@@ -1,0 +1,10 @@
+..\..\output\inflash\tempature.o: ..\..\STemWIN_Task\tempature.c
+..\..\output\inflash\tempature.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\inflash\tempature.o: ..\..\STemWIN\inc\GUI.h
+..\..\output\inflash\tempature.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\inflash\tempature.o: ..\..\STemWIN\inc\GUI_ConfDefaults.h
+..\..\output\inflash\tempature.o: ..\..\STemWIN\Config\GUIConf.h
+..\..\output\inflash\tempature.o: ..\..\STemWIN\inc\GUI_Type.h
+..\..\output\inflash\tempature.o: ..\..\STemWIN\inc\LCD.h
+..\..\output\inflash\tempature.o: ..\..\STemWIN\inc\Global.h
+..\..\output\inflash\tempature.o: ..\..\STemWIN\inc\GUI_Version.h

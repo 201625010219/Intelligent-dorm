@@ -1,0 +1,10 @@
+..\..\output\extflash\curtain.o: ..\..\STemWIN_Task\curtain.c
+..\..\output\extflash\curtain.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\extflash\curtain.o: ..\..\STemWIN\inc\GUI.h
+..\..\output\extflash\curtain.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\extflash\curtain.o: ..\..\STemWIN\inc\GUI_ConfDefaults.h
+..\..\output\extflash\curtain.o: ..\..\STemWIN\Config\GUIConf.h
+..\..\output\extflash\curtain.o: ..\..\STemWIN\inc\GUI_Type.h
+..\..\output\extflash\curtain.o: ..\..\STemWIN\inc\LCD.h
+..\..\output\extflash\curtain.o: ..\..\STemWIN\inc\Global.h
+..\..\output\extflash\curtain.o: ..\..\STemWIN\inc\GUI_Version.h

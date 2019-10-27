@@ -1,7 +1,7 @@
 ..\..\output\main.o: ..\..\User\main.c
 ..\..\output\main.o: ..\..\FreeRTOS\include\FreeRTOS.h
-..\..\output\main.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stddef.h
-..\..\output\main.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\main.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\main.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\main.o: ..\..\User\FreeRTOSConfig.h
 ..\..\output\main.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\main.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h743xx.h
@@ -16,7 +16,7 @@
 ..\..\output\main.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h
 ..\..\output\main.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\main.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-..\..\output\main.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\main.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\main.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h
 ..\..\output\main.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h
 ..\..\output\main.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h
@@ -59,4 +59,4 @@
 ..\..\output\main.o: ..\..\User\bsp\cm_backtrace\cm_backtrace.h
 ..\..\output\main.o: ..\..\User\bsp\cm_backtrace\cmb_def.h
 ..\..\output\main.o: ..\..\User\bsp\cm_backtrace\cmb_cfg.h
-..\..\output\main.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\main.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h

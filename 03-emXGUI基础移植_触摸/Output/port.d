@@ -1,7 +1,7 @@
 ..\..\output\port.o: ..\..\FreeRTOS\port\RVDS\ARM_CM7\r0p1\port.c
 ..\..\output\port.o: ..\..\FreeRTOS\include\FreeRTOS.h
-..\..\output\port.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stddef.h
-..\..\output\port.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\port.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\port.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\port.o: ..\..\User\FreeRTOSConfig.h
 ..\..\output\port.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\port.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h743xx.h
@@ -16,7 +16,7 @@
 ..\..\output\port.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h
 ..\..\output\port.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\port.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-..\..\output\port.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\port.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\port.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h
 ..\..\output\port.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h
 ..\..\output\port.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h

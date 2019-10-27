@@ -1,0 +1,10 @@
+..\..\output\extflash\music.o: ..\..\STemWIN_Task\music.c
+..\..\output\extflash\music.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\extflash\music.o: ..\..\STemWIN\inc\GUI.h
+..\..\output\extflash\music.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\extflash\music.o: ..\..\STemWIN\inc\GUI_ConfDefaults.h
+..\..\output\extflash\music.o: ..\..\STemWIN\Config\GUIConf.h
+..\..\output\extflash\music.o: ..\..\STemWIN\inc\GUI_Type.h
+..\..\output\extflash\music.o: ..\..\STemWIN\inc\LCD.h
+..\..\output\extflash\music.o: ..\..\STemWIN\inc\Global.h
+..\..\output\extflash\music.o: ..\..\STemWIN\inc\GUI_Version.h

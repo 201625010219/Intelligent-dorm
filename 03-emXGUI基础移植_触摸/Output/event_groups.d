@@ -1,8 +1,8 @@
 ..\..\output\event_groups.o: ..\..\FreeRTOS\src\event_groups.c
-..\..\output\event_groups.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\event_groups.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\..\output\event_groups.o: ..\..\FreeRTOS\include\FreeRTOS.h
-..\..\output\event_groups.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stddef.h
-..\..\output\event_groups.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\event_groups.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\event_groups.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\event_groups.o: ..\..\User\FreeRTOSConfig.h
 ..\..\output\event_groups.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\event_groups.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h743xx.h
@@ -17,7 +17,7 @@
 ..\..\output\event_groups.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h
 ..\..\output\event_groups.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\event_groups.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-..\..\output\event_groups.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\event_groups.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\event_groups.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h
 ..\..\output\event_groups.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h
 ..\..\output\event_groups.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h

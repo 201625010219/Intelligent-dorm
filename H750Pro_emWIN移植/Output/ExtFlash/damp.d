@@ -1,0 +1,10 @@
+..\..\output\extflash\damp.o: ..\..\STemWIN_Task\damp.c
+..\..\output\extflash\damp.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\extflash\damp.o: ..\..\STemWIN\inc\GUI.h
+..\..\output\extflash\damp.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\extflash\damp.o: ..\..\STemWIN\inc\GUI_ConfDefaults.h
+..\..\output\extflash\damp.o: ..\..\STemWIN\Config\GUIConf.h
+..\..\output\extflash\damp.o: ..\..\STemWIN\inc\GUI_Type.h
+..\..\output\extflash\damp.o: ..\..\STemWIN\inc\LCD.h
+..\..\output\extflash\damp.o: ..\..\STemWIN\inc\Global.h
+..\..\output\extflash\damp.o: ..\..\STemWIN\inc\GUI_Version.h

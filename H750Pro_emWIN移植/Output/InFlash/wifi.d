@@ -1,0 +1,10 @@
+..\..\output\inflash\wifi.o: ..\..\STemWIN_Task\wifi.c
+..\..\output\inflash\wifi.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\inflash\wifi.o: ..\..\STemWIN\inc\GUI.h
+..\..\output\inflash\wifi.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\inflash\wifi.o: ..\..\STemWIN\inc\GUI_ConfDefaults.h
+..\..\output\inflash\wifi.o: ..\..\STemWIN\Config\GUIConf.h
+..\..\output\inflash\wifi.o: ..\..\STemWIN\inc\GUI_Type.h
+..\..\output\inflash\wifi.o: ..\..\STemWIN\inc\LCD.h
+..\..\output\inflash\wifi.o: ..\..\STemWIN\inc\Global.h
+..\..\output\inflash\wifi.o: ..\..\STemWIN\inc\GUI_Version.h

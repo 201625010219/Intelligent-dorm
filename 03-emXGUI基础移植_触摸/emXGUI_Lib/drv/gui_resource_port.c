@@ -111,14 +111,7 @@ BOOL RES_DevRead(u8 *buf,u32 addr,u32 size)
   */
 int RES_DevEraseSector(u32 addr)
 {
-	GUI_MutexLock(mutex_lock,5000);
-#if defined(STM32F429_439xx)  
-	SPI_FLASH_SectorErase(addr&0xFFFFF000);
-#elif defined(STM32H743xx)
-  //BSP_QSPI_Erase_Block(addr&0xFFFFF000);
-#endif     
-	GUI_MutexUnlock(mutex_lock);
-	return 0;
+
 }
 
 

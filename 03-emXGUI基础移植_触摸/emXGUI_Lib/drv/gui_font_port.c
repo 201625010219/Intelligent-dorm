@@ -85,7 +85,7 @@ const FONT_PARAM_TypeDef gui_font_param[GUI_LCD_TYPE_NUM] = {
 #if (GUI_EXTERN_FONT_EN)
 
 #if (!GUI_RES_DEV_EN)
-  #error Use extern must enable macro 'GUI_RES_DEV_EN' first!
+   //#error Use extern must enable macro 'GUI_RES_DEV_EN' first!
 #endif
 
 /**

@@ -1,0 +1,10 @@
+..\..\output\inflash\curtain.o: ..\..\STemWIN_Task\curtain.c
+..\..\output\inflash\curtain.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\inflash\curtain.o: ..\..\STemWIN\inc\GUI.h
+..\..\output\inflash\curtain.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\inflash\curtain.o: ..\..\STemWIN\inc\GUI_ConfDefaults.h
+..\..\output\inflash\curtain.o: ..\..\STemWIN\Config\GUIConf.h
+..\..\output\inflash\curtain.o: ..\..\STemWIN\inc\GUI_Type.h
+..\..\output\inflash\curtain.o: ..\..\STemWIN\inc\LCD.h
+..\..\output\inflash\curtain.o: ..\..\STemWIN\inc\Global.h
+..\..\output\inflash\curtain.o: ..\..\STemWIN\inc\GUI_Version.h

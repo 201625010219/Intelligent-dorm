@@ -1,13 +1,13 @@
 ..\..\output\gui_startup.o: ..\..\emXGUI_Lib\drv\gui_startup.c
-..\..\output\gui_startup.o: D:\keil\core\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\gui_startup.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\string.h
 ..\..\output\gui_startup.o: ..\..\emXGUI_Lib\arch\Inc\gui_drv.h
 ..\..\output\gui_startup.o: ..\..\emXGUI_Lib\inc\emXGUI.h
 ..\..\output\gui_startup.o: ..\..\emXGUI_Lib\inc\def.h
 ..\..\output\gui_startup.o: ..\..\emXGUI_Lib\arch\Inc\gui_os_port.h
-..\..\output\gui_startup.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\gui_startup.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\gui_startup.o: ..\..\FreeRTOS\include\FreeRTOS.h
-..\..\output\gui_startup.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stddef.h
-..\..\output\gui_startup.o: D:\keil\core\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\gui_startup.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\gui_startup.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\gui_startup.o: ..\..\User\FreeRTOSConfig.h
 ..\..\output\gui_startup.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
 ..\..\output\gui_startup.o: ..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include\stm32h743xx.h
@@ -65,7 +65,7 @@
 ..\..\output\gui_startup.o: ..\..\emXGUI_Lib\inc\emXGUI.h
 ..\..\output\gui_startup.o: ..\..\emXGUI_Lib\arch\Inc\gui_drv.h
 ..\..\output\gui_startup.o: ..\..\emXGUI_Lib\inc\web_color.h
-..\..\output\gui_startup.o: D:\keil\core\ARM\ARMCC\Bin\..\include\math.h
+..\..\output\gui_startup.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\math.h
 ..\..\output\gui_startup.o: ..\..\emXGUI_Lib\drv\gui_mem_port.h
 ..\..\output\gui_startup.o: ..\..\emXGUI_Lib\drv\gui_drv_cfg.h
 ..\..\output\gui_startup.o: ..\..\emXGUI_Lib\drv\gui_lcd_port.h
