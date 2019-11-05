@@ -630,8 +630,7 @@ static void BSP_Init(void)
 //    }
 //      
 
-  
-    
+ 
 }
 
 /**

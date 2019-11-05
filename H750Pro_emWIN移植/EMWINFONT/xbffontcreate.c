@@ -6,7 +6,7 @@
 
 #define SYSTEM_SUPPORT_OS 1
 #if SYSTEM_SUPPORT_OS
-//#include "includes.h"					//freertos 使用	  
+#include "FreeRTOS.h"				//freertos 使用	  
 #endif
 //extern GUI_CONST_STORAGE GUI_FONT GUI_FontXBF12;
 //定义字体

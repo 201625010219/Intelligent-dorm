@@ -139,6 +139,8 @@
 "..\..\output\inflash\on.o"
 "..\..\output\inflash\winddlg.o"
 "..\..\output\inflash\curtaindlg.o"
+"..\..\output\inflash\cameradlg.o"
+"..\..\output\inflash\keypad.o"
 "..\..\output\inflash\diskio.o"
 "..\..\output\inflash\ff.o"
 "..\..\output\inflash\ff_gen_drv.o"

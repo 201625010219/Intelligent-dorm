@@ -56,6 +56,7 @@ extern  WM_HWIN CreateDamp(void);
 extern  WM_HWIN CreateDOOR(void);
 extern  WM_HWIN CreateWind(void);
 extern  WM_HWIN CreateCurtain(void);
+extern  void keypad_demo(void);
 
 #define ID_FRAMEWIN_0    (GUI_ID_USER + 0x00)
 #define ID_BUTTON_0    (GUI_ID_USER + 0x01)
@@ -654,6 +655,7 @@ static void _cbDialog(WM_MESSAGE * pMsg) {
       switch(NCode) {
       case WM_NOTIFICATION_CLICKED:
         // USER START (Optionally insert code for reacting on notification message)
+      keypad_demo();
         // USER END
         break;
       case WM_NOTIFICATION_RELEASED:
