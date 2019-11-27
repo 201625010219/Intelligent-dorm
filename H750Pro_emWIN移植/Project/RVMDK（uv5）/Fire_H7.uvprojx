@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32H743xx,APPLICATION_ADDRESS = 0x8000000</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\Libraries\CMSIS\Include;..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include;..\..\Libraries\STM32H7xx_HAL_Driver\Inc;..\..\User;..\..\FreeRTOS\include;..\..\FreeRTOS\port\RVDS\ARM_CM7\r0p1;..\..\STemWIN_Task;..\..\STemWIN\Config;..\..\STemWIN\inc;..\..\User\FATFS;..\..\EMWINFONT;..\..\User\mp3\real;..\..\User\mp3\pub;..\..\Libraries\STM32H7xx_HAL_Driver\Inc\Legacy</IncludePath>
+              <IncludePath>..\..\Libraries\CMSIS\Include;..\..\Libraries\CMSIS\Device\ST\STM32H7xx\Include;..\..\Libraries\STM32H7xx_HAL_Driver\Inc;..\..\User;..\..\FreeRTOS\include;..\..\FreeRTOS\port\RVDS\ARM_CM7\r0p1;..\..\STemWIN_Task;..\..\STemWIN\Config;..\..\STemWIN\inc;..\..\User\FATFS;..\..\EMWINFONT;..\..\User\mp3\real;..\..\User\mp3\pub;..\..\Libraries\STM32H7xx_HAL_Driver\Inc\Legacy;..\..\Gizwits</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -818,11 +818,6 @@
               <FilePath>..\..\User\delay\core_delay.c</FilePath>
             </File>
             <File>
-              <FileName>bsp_mpu.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\User\mpu\bsp_mpu.c</FilePath>
-            </File>
-            <File>
               <FileName>bsp_sdram.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\User\sdram\bsp_sdram.c</FilePath>
@@ -921,6 +916,11 @@
               <FileName>bsp_key.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\User\key\bsp_key.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_mpu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\mpu\bsp_mpu.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1180,6 +1180,46 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>Gitwit</GroupName>
+          <Files>
+            <File>
+              <FileName>common.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\common.c</FilePath>
+            </File>
+            <File>
+              <FileName>dataPointTools.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\dataPointTools.c</FilePath>
+            </File>
+            <File>
+              <FileName>gizwits_product.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\gizwits_product.c</FilePath>
+            </File>
+            <File>
+              <FileName>gizwits_protocol.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\gizwits_protocol.c</FilePath>
+            </File>
+            <File>
+              <FileName>ringbuffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\ringbuffer.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Git_usart</GroupName>
+          <Files>
+            <File>
+              <FileName>git_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\git_usart\git_usart.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>MP3</GroupName>
           <Files>
             <File>
@@ -1261,6 +1301,16 @@
               <FileName>asmpoly_thumb2.s</FileName>
               <FileType>2</FileType>
               <FilePath>..\..\User\mp3\real\arm\asmpoly_thumb2.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Git_TIM</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp_basic_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\tim\bsp_basic_tim.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2088,11 +2138,6 @@
               <FilePath>..\..\User\delay\core_delay.c</FilePath>
             </File>
             <File>
-              <FileName>bsp_mpu.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\User\mpu\bsp_mpu.c</FilePath>
-            </File>
-            <File>
               <FileName>bsp_sdram.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\User\sdram\bsp_sdram.c</FilePath>
@@ -2191,6 +2236,11 @@
               <FileName>bsp_key.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\User\key\bsp_key.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_mpu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\mpu\bsp_mpu.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2450,6 +2500,46 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>Gitwit</GroupName>
+          <Files>
+            <File>
+              <FileName>common.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\common.c</FilePath>
+            </File>
+            <File>
+              <FileName>dataPointTools.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\dataPointTools.c</FilePath>
+            </File>
+            <File>
+              <FileName>gizwits_product.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\gizwits_product.c</FilePath>
+            </File>
+            <File>
+              <FileName>gizwits_protocol.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\gizwits_protocol.c</FilePath>
+            </File>
+            <File>
+              <FileName>ringbuffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\ringbuffer.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Git_usart</GroupName>
+          <Files>
+            <File>
+              <FileName>git_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\git_usart\git_usart.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>MP3</GroupName>
           <Files>
             <File>
@@ -2531,6 +2621,16 @@
               <FileName>asmpoly_thumb2.s</FileName>
               <FileType>2</FileType>
               <FilePath>..\..\User\mp3\real\arm\asmpoly_thumb2.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Git_TIM</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp_basic_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\tim\bsp_basic_tim.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -3359,11 +3459,6 @@
               <FilePath>..\..\User\delay\core_delay.c</FilePath>
             </File>
             <File>
-              <FileName>bsp_mpu.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\User\mpu\bsp_mpu.c</FilePath>
-            </File>
-            <File>
               <FileName>bsp_sdram.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\User\sdram\bsp_sdram.c</FilePath>
@@ -3462,6 +3557,11 @@
               <FileName>bsp_key.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\User\key\bsp_key.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_mpu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\mpu\bsp_mpu.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -3721,6 +3821,46 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>Gitwit</GroupName>
+          <Files>
+            <File>
+              <FileName>common.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\common.c</FilePath>
+            </File>
+            <File>
+              <FileName>dataPointTools.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\dataPointTools.c</FilePath>
+            </File>
+            <File>
+              <FileName>gizwits_product.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\gizwits_product.c</FilePath>
+            </File>
+            <File>
+              <FileName>gizwits_protocol.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\gizwits_protocol.c</FilePath>
+            </File>
+            <File>
+              <FileName>ringbuffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Gizwits\ringbuffer.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Git_usart</GroupName>
+          <Files>
+            <File>
+              <FileName>git_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\git_usart\git_usart.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>MP3</GroupName>
           <Files>
             <File>
@@ -3802,6 +3942,16 @@
               <FileName>asmpoly_thumb2.s</FileName>
               <FileType>2</FileType>
               <FilePath>..\..\User\mp3\real\arm\asmpoly_thumb2.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Git_TIM</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp_basic_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\tim\bsp_basic_tim.c</FilePath>
             </File>
           </Files>
         </Group>

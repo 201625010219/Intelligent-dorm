@@ -46,6 +46,8 @@
 ..\..\output\inflash\stm32h7xx_it.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_mmc.h
 ..\..\output\inflash\stm32h7xx_it.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_mmc_ex.h
 ..\..\output\inflash\stm32h7xx_it.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_sdram.h
+..\..\output\inflash\stm32h7xx_it.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_tim.h
+..\..\output\inflash\stm32h7xx_it.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_tim_ex.h
 ..\..\output\inflash\stm32h7xx_it.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_uart.h
 ..\..\output\inflash\stm32h7xx_it.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_uart_ex.h
 ..\..\output\inflash\stm32h7xx_it.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_usart.h
@@ -53,6 +55,15 @@
 ..\..\output\inflash\stm32h7xx_it.o: ..\..\User\stm32h7xx_it.h
 ..\..\output\inflash\stm32h7xx_it.o: ..\..\User\./sai/bsp_sai.h
 ..\..\output\inflash\stm32h7xx_it.o: ..\..\User\./RTC/bsp_rtc.h
+..\..\output\inflash\stm32h7xx_it.o: ..\..\User\./git_usart/git_usart.h
+..\..\output\inflash\stm32h7xx_it.o: ..\..\Gizwits\gizwits_product.h
+..\..\output\inflash\stm32h7xx_it.o: ..\..\Gizwits\gizwits_protocol.h
+..\..\output\inflash\stm32h7xx_it.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdbool.h
+..\..\output\inflash\stm32h7xx_it.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\inflash\stm32h7xx_it.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\inflash\stm32h7xx_it.o: ..\..\Gizwits\common.h
+..\..\output\inflash\stm32h7xx_it.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\ctype.h
+..\..\output\inflash\stm32h7xx_it.o: ..\..\User\./tim/bsp_basic_tim.h
 ..\..\output\inflash\stm32h7xx_it.o: ..\..\FreeRTOS\include\FreeRTOS.h
 ..\..\output\inflash\stm32h7xx_it.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stddef.h
 ..\..\output\inflash\stm32h7xx_it.o: ..\..\User\FreeRTOSConfig.h

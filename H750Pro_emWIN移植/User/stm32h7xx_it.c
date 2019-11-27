@@ -36,10 +36,14 @@
 #include "stm32h7xx_it.h"
 #include "./sai/bsp_sai.h" 
 #include "./RTC/bsp_rtc.h"
+#include "./git_usart/git_usart.h"
+#include "gizwits_product.h"
+#include "./tim/bsp_basic_tim.h"
 /* FreeRTOSÍ·ÎÄ¼þ */
 #include "FreeRTOS.h"
 #include "task.h"
 /* USER CODE BEGIN 0 */
+extern TIM_HandleTypeDef TIM_Base;
 extern SD_HandleTypeDef uSdHandle;
 /* USER CODE END 0 */
 
@@ -219,6 +223,26 @@ void DMA1_Stream2_IRQHandler(void)
 void SDMMC1_IRQHandler(void)
 {
   HAL_SD_IRQHandler(&uSdHandle);
+}
+
+
+/*Git_Usart Interrupt*/
+void Gitwit_USART_IRQHandler(void)
+{
+    uint8_t res;
+	if(__HAL_UART_GET_IT( &UartHandle, UART_IT_RXNE ) != RESET)
+	{		
+        HAL_UART_Receive(&UartHandle, (uint8_t *)&res, 1, 1000);   
+        gizPutData(&res, 1);        
+	}
+    
+    HAL_UART_IRQHandler(&UartHandle);	 
+}
+
+/*Git_Tim Interruct*/
+void BASIC_TIM_IRQHandler(void)
+{
+    HAL_TIM_IRQHandler(&TIM_Base);
 }
 /* USER CODE END 1 */
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

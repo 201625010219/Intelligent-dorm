@@ -22,16 +22,26 @@ Dialog DLL:      TCM.DLL V1.36.1.0
  
 <h2>Project:</h2>
 F:\资料集\2019大创\intelligent_dorm\H750Pro_emWIN移植\Project\RVMDK（uv5）\Fire_H7.uvprojx
-Project File Date:  11/05/2019
+Project File Date:  11/21/2019
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'F:\soft\MDK\Package\ARM\ARMCC\Bin'
 Build target 'Fire_H7_InFlash'
 compiling keypad.c...
+compiling main.c...
+..\..\User\main.c(106): warning:  #177-D: variable "MP3_Task_Handle"  was declared but never referenced
+  static TaskHandle_t MP3_Task_Handle = NULL;
+..\..\User\main.c(110): warning:  #177-D: variable "GSM_Task_Handle"  was declared but never referenced
+  static TaskHandle_t GSM_Task_Handle = NULL;
+..\..\User\main.c(146): warning:  #177-D: function "MP3_Task"  was declared but never referenced
+  static void MP3_Task(void* parameter);
+..\..\User\main.c(148): warning:  #177-D: function "GSM_Task"  was declared but never referenced
+  static void GSM_Task(void* parameter);
+..\..\User\main.c: 4 warnings, 0 errors
 linking...
-Program Size: Code=214640 RO-data=384516 RW-data=3892 ZI-data=21202144  
+Program Size: Code=225140 RO-data=382056 RW-data=3916 ZI-data=21202696  
 FromELF: creating hex file...
-"..\..\Output\InFlash\Fire_H7.axf" - 0 Error(s), 0 Warning(s).
+"..\..\Output\InFlash\Fire_H7.axf" - 0 Error(s), 4 Warning(s).
 
 <h2>Software Packages used:</h2>
 

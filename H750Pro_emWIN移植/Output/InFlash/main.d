@@ -47,6 +47,8 @@
 ..\..\output\inflash\main.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_mmc.h
 ..\..\output\inflash\main.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_mmc_ex.h
 ..\..\output\inflash\main.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_sdram.h
+..\..\output\inflash\main.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_tim.h
+..\..\output\inflash\main.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_tim_ex.h
 ..\..\output\inflash\main.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_uart.h
 ..\..\output\inflash\main.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_uart_ex.h
 ..\..\output\inflash\main.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_usart.h
@@ -136,3 +138,11 @@
 ..\..\output\inflash\main.o: ..\..\User\FATFS\ff_gen_drv.h
 ..\..\output\inflash\main.o: ..\..\User\FATFS\diskio.h
 ..\..\output\inflash\main.o: ..\..\User\FATFS\sd_diskio.h
+..\..\output\inflash\main.o: ..\..\User\./git_usart/git_usart.h
+..\..\output\inflash\main.o: ..\..\Gizwits\gizwits_product.h
+..\..\output\inflash\main.o: ..\..\Gizwits\gizwits_protocol.h
+..\..\output\inflash\main.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdbool.h
+..\..\output\inflash\main.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\inflash\main.o: ..\..\Gizwits\common.h
+..\..\output\inflash\main.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\ctype.h
+..\..\output\inflash\main.o: ..\..\User\./tim/bsp_basic_tim.h

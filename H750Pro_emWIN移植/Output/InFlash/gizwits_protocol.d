@@ -1,0 +1,12 @@
+..\..\output\inflash\gizwits_protocol.o: ..\..\Gizwits\gizwits_protocol.c
+..\..\output\inflash\gizwits_protocol.o: ..\..\Gizwits\ringBuffer.h
+..\..\output\inflash\gizwits_protocol.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\inflash\gizwits_protocol.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\inflash\gizwits_protocol.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\inflash\gizwits_protocol.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\inflash\gizwits_protocol.o: ..\..\Gizwits\gizwits_product.h
+..\..\output\inflash\gizwits_protocol.o: ..\..\Gizwits\gizwits_protocol.h
+..\..\output\inflash\gizwits_protocol.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdbool.h
+..\..\output\inflash\gizwits_protocol.o: ..\..\Gizwits\common.h
+..\..\output\inflash\gizwits_protocol.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\ctype.h
+..\..\output\inflash\gizwits_protocol.o: ..\..\Gizwits\dataPointTools.h

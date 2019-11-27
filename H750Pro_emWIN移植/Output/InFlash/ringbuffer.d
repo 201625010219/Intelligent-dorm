@@ -1,0 +1,9 @@
+..\..\output\inflash\ringbuffer.o: ..\..\Gizwits\ringbuffer.c
+..\..\output\inflash\ringbuffer.o: ..\..\Gizwits\ringBuffer.h
+..\..\output\inflash\ringbuffer.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\inflash\ringbuffer.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\inflash\ringbuffer.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\inflash\ringbuffer.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\inflash\ringbuffer.o: ..\..\Gizwits\common.h
+..\..\output\inflash\ringbuffer.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\stdbool.h
+..\..\output\inflash\ringbuffer.o: F:\soft\MDK\Package\ARM\ARMCC\Bin\..\include\ctype.h

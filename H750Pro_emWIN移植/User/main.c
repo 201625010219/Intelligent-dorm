@@ -53,6 +53,13 @@
 #include "ff_gen_drv.h"
 #include "sd_diskio.h"
 
+/*机智云头文件*/
+#include "./git_usart/git_usart.h"
+#include "gizwits_product.h"
+#include "./tim/bsp_basic_tim.h"
+ 
+
+ 
 
 DHT11_Data_TypeDef DHT11_Data;
 char SDPath[4]; /* SD逻辑驱动器路径 */
@@ -63,6 +70,16 @@ FRESULT res_sd;                /* 文件操作结果 */
 /*GSM*/
 char *  rebuff;
  
+/*机智云函数*/
+//协议初始化 
+void Gizwits_Init(void) 
+{ 
+          TIM_Basic_Init(); //1MS 系统定时   
+          Gitwit_USART_Config();//WIFI 初始化   
+          memset((uint8_t*)&currentDataPoint, 0, sizeof(dataPoint_t)); 
+//设备状态结构体初始化 
+          gizwitsInit();//缓冲区初始化 
+} 
 /**************************** 任务句柄 ********************************/
 /* 
  * 任务句柄是一个指针，用于指向一个任务，当任务创建好之后，它就具有了一个任务句柄
@@ -91,6 +108,8 @@ static TaskHandle_t MP3_Task_Handle = NULL;
 static TaskHandle_t RC522_Task_Handle = NULL;
 /*GSM任务句柄 */
 static TaskHandle_t GSM_Task_Handle = NULL;
+/*GitWit任务句柄 */
+static TaskHandle_t GitWit_Task_Handle = NULL;
 
 /********************************** 内核对象句柄 *********************************/
 /*
@@ -127,6 +146,7 @@ static void MQ_Task(void* parameter);
 static void MP3_Task(void* parameter);
 static void RC522_Task(void* parameter);
 static void GSM_Task(void* parameter);
+static void GitWit_Task(void* parameter);
 
 static void BSP_Init(void);
 extern void MainTask(void);
@@ -249,7 +269,7 @@ static void AppTaskCreate(void)
 											 (const char*      )"Touch_Task",/* 任务名称 */
 											 (uint16_t         )512,     /* 任务栈大小 */
 											 (void*            )NULL,    /* 任务入口函数参数 */
-											 (UBaseType_t      )4,       /* 任务的优先级 */
+											 (UBaseType_t      )5,       /* 任务的优先级 */
 											 (TaskHandle_t     )&Touch_Task_Handle);/* 任务控制块指针 */
 	if(pdPASS == xReturn)
 		printf("创建Touch_Task任务成功！\r\n");
@@ -258,10 +278,18 @@ static void AppTaskCreate(void)
 											 (const char*      )"GUI_Task",/* 任务名称 */
 											 (uint16_t         )1024,      /* 任务栈大小 */
 											 (void*            )NULL,      /* 任务入口函数参数 */
-											 (UBaseType_t      )3,         /* 任务的优先级 */
+											 (UBaseType_t      )4,         /* 任务的优先级 */
 											 (TaskHandle_t     )&GUI_Task_Handle);/* 任务控制块指针 */
 	if(pdPASS == xReturn)
 		printf("创建GUI_Task任务成功！\r\n");
+   xReturn = xTaskCreate((TaskFunction_t)GitWit_Task,/* 任务入口函数 */
+											 (const char*      )"GitWit_Task",/* 任务名称 */
+											 (uint16_t         )1024,      /* 任务栈大小 */
+											 (void*            )NULL,      /* 任务入口函数参数 */
+											 (UBaseType_t      )3,         /* 任务的优先级 */
+											 (TaskHandle_t     )&GitWit_Task_Handle);/* 任务控制块指针 */
+	if(pdPASS == xReturn)
+		printf("创建GitWit_Task任务成功！\r\n");
 	
 	vTaskDelete(AppTaskCraete_Handle);//删除AppTaskCreate任务
 	
@@ -439,6 +467,21 @@ static void LDR_Task(void *parameter)
 	}   
 }
 /**
+  * @brief GitWit任务主体
+  * @note 无
+  * @param 无
+  * @retval 无
+  */
+static void GitWit_Task(void* parameter)
+{
+	while(1)
+	{
+        userHandle();//用户采集 
+        gizwitsHandle((dataPoint_t *)&currentDataPoint);//协议处理 
+		vTaskDelay(100);
+	}
+}
+/**
   * @brief DHT11任务主体
   * @note 无
   * @param 无
@@ -573,7 +616,11 @@ static void BSP_Init(void)
     PcdReset ();
   /*设置工作方式*/   
 	M500PcdConfigISOType ( 'A' );
-	
+	/*机智云初始化*/
+    userInit();
+    Gizwits_Init(); 
+    gizwitsSetMode(WIFI_AIRLINK_MODE);
+//	GIZWITS_LOG("MCU Init Success \n");     
 //     //链接驱动器，创建盘符
     FATFS_LinkDriver(&SD_Driver, SDPath);
     //在外部SD卡挂载文件系统，文件系统挂载时会对SD卡初始化

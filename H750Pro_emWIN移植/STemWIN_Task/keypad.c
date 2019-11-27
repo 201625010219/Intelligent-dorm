@@ -34,28 +34,6 @@ typedef struct
 } BUTTON_DATA;
 
 
-//在按钮上绘制位图，比如回车键，删除键等
-static void _DrawCentered(WM_HWIN hWin, const GUI_BITMAP * pBM) 
-{
-	int xSizeWin;
-	int ySizeWin;
-	int xSizeBMP;
-	int ySizeBMP;
-	int xPos;
-	int yPos;
-
-	xSizeWin = WM_GetWindowSizeX(hWin);
-	ySizeWin = WM_GetWindowSizeY(hWin);
-	xSizeBMP = pBM->XSize;
-	ySizeBMP = pBM->YSize;
-	xPos = (xSizeWin - xSizeBMP) >> 1;
-	yPos = (ySizeWin - ySizeBMP) >> 1;
-	GUI_DrawBitmap(pBM, xPos, yPos);
-}
-
-//static void _DrawBkSpc (WM_HWIN hWin) {  _DrawCentered(hWin, &bmBackSpace); }	//绘制退格键(删除键)
-//static void _DrawEnter (WM_HWIN hWin) {  _DrawCentered(hWin, &bmEnter); }		//绘制回车键
-static void _DrawRetern(WM_HWIN hWin) {  _DrawCentered(hWin, &bmReturn); }		//绘制返回键
 
 
 
@@ -84,7 +62,7 @@ static  BUTTON_DATA _aNumButtonData[] = {
 	{ (NUM_BUTTON_XPAC*2+NUM_BUTTON_WIDTH*1+NUM_BUTTON_XOFFSET-NUM_BUTTONSING_XINC),  NUM_BUTTON_LINE4YPOS, NUM_BUTTON_WIDTH,NUM_BUTTON_HEIGHT, "," ,0,","},
 	{ (NUM_BUTTON_XPAC*3+NUM_BUTTON_WIDTH*2+NUM_BUTTON_XOFFSET-NUM_BUTTONSING_XINC),  NUM_BUTTON_LINE4YPOS, NUM_BUTTON_WIDTH,NUM_BUTTON_HEIGHT, "0" ,0,"0"},
 	{ (NUM_BUTTON_XPAC*4+NUM_BUTTON_WIDTH*3+NUM_BUTTON_XOFFSET-NUM_BUTTONSING_XINC),  NUM_BUTTON_LINE4YPOS, NUM_BUTTON_WIDTH,NUM_BUTTON_HEIGHT, "." ,0,"."},
-	{ (NUM_BUTTON_XPAC*5+NUM_BUTTON_WIDTH*4+NUM_BUTTON_XOFFSET-NUM_BUTTONSING_XINC),  NUM_BUTTON_LINE4YPOS, NUM_BUTTON_WIDTH,NUM_BUTTON_HEIGHT, "\x04",_DrawRetern },//返回键
+	{ (NUM_BUTTON_XPAC*5+NUM_BUTTON_WIDTH*4+NUM_BUTTON_XOFFSET-NUM_BUTTONSING_XINC),  NUM_BUTTON_LINE4YPOS, NUM_BUTTON_WIDTH,NUM_BUTTON_HEIGHT, "",0,"Call" },//返回键
 };
 
 
@@ -125,7 +103,20 @@ void numkeypad_process(BUTTON_DATA *buttondata,int Id,WM_MESSAGE *pMsg)
 
         if(KeyID == 19)                          
         {
-             taskENTER_CRITICAL();//进入临界区
+              vTaskSuspendAll();//进入临界区
+              while(gsm_init()!= GSM_TRUE)
+                {
+                  printf("\r\n模块响应测试不正常！！\r\n");
+                  printf("\r\n若模块响应测试一直不正常，请检查模块的连接或是否已开启电源开关\r\n");
+                        GSM_DELAY(500);
+
+                }
+    
+    printf("\r\n通过了模块响应测试，5秒后开始拨号测试...\r\n");
+    
+    /* 延时3秒再发送命令到模块 */
+    GSM_DELAY(5000);
+    
             //拨打电话按键
              MULTIEDIT_GetText(hMulti,phone_buff,sizeof(phone_buff));
              printf("%s\n",phone_buff); //接受电话号码
@@ -136,7 +127,8 @@ void numkeypad_process(BUTTON_DATA *buttondata,int Id,WM_MESSAGE *pMsg)
               printf("\r\n正在呼叫\r\n");
               GSM_CLEAN_RX();                     //清除接收缓冲区
               rev_phone = gsm_waitask(0);            //重新等待消息
-             
+              printf("\r\n正在呼叫\r\n");
+              printf("%s\n",rev_phone);
               if(strstr(rev_phone,"NO CARRIER") != NULL) //响应NO CARRIER,通话结束
                {
                  printf("\r\n通话结束\r\n");
@@ -146,8 +138,9 @@ void numkeypad_process(BUTTON_DATA *buttondata,int Id,WM_MESSAGE *pMsg)
                 printf("\r\n你拨打的电话暂时无人接听，请稍后再拨\r\n");
               }  
             }
-                GSM_CLEAN_RX();                     //清除接收缓冲区
-            taskEXIT_CRITICAL();//退出临界区
+            GSM_HANGOFF();
+            GSM_CLEAN_RX();                     //清除接收缓冲区
+            xTaskResumeAll();//退出临界区
          }
         else
         {

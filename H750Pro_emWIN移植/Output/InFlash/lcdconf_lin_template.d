@@ -61,6 +61,8 @@
 ..\..\output\inflash\lcdconf_lin_template.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_mmc.h
 ..\..\output\inflash\lcdconf_lin_template.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_mmc_ex.h
 ..\..\output\inflash\lcdconf_lin_template.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_sdram.h
+..\..\output\inflash\lcdconf_lin_template.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_tim.h
+..\..\output\inflash\lcdconf_lin_template.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_tim_ex.h
 ..\..\output\inflash\lcdconf_lin_template.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_uart.h
 ..\..\output\inflash\lcdconf_lin_template.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_uart_ex.h
 ..\..\output\inflash\lcdconf_lin_template.o: ..\..\Libraries\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_usart.h

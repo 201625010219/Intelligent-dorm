@@ -70,9 +70,6 @@ static const GUI_WIDGET_CREATE_INFO _aDialogCreate[] = {
 // USER START (Optionally insert additional static code)
 static void _cbONButton(WM_MESSAGE * pMsg) 
 {
-	WM_HWIN  hWin;
-
-	hWin  = pMsg->hWin;
 	switch (pMsg->MsgId) 
 	{
 		case WM_PAINT:
